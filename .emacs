@@ -8,6 +8,8 @@
 (global-set-key [f1] 'goto-line)
 (global-set-key [f2] 'speedbar)
 (global-set-key "\C-xb" 'buffer-menu) 
+(global-set-key [?\C-h] 'delete-backward-char)
+(global-set-key [?\C-x ?h] 'help-command)                      
 (setq x-alt-keysym 'meta)
 
 
